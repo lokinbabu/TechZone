@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+<defs>
+<linearGradient id="gBg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d101f"/><stop offset="1" stop-color="#070910"/></linearGradient>
+<linearGradient id="gScreen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#141a30"/><stop offset="1" stop-color="#0a0d1c"/></linearGradient>
+<linearGradient id="gMetal" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#262e4a"/><stop offset="1" stop-color="#141a2e"/></linearGradient>
+<radialGradient id="gz1"><stop offset="0" stop-color="#a78bfa" stop-opacity="0.5"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="800" height="800" fill="url(#gBg)"/>
+<ellipse cx="400" cy="380" rx="225" ry="190" fill="url(#gz1)"/>
+<ellipse cx="400" cy="355" rx="82" ry="102" fill="url(#gMetal)" stroke="#a78bfa" stroke-opacity="0.6" stroke-width="2.5"/>
+<line x1="356" y1="285" x2="356" y2="425" stroke="#a78bfa" stroke-width="2" opacity="0.18"/>
+<line x1="386" y1="285" x2="386" y2="425" stroke="#a78bfa" stroke-width="2" opacity="0.18"/>
+<line x1="416" y1="285" x2="416" y2="425" stroke="#a78bfa" stroke-width="2" opacity="0.18"/>
+<line x1="446" y1="285" x2="446" y2="425" stroke="#a78bfa" stroke-width="2" opacity="0.18"/>
+<ellipse cx="400" cy="470" rx="96" ry="18" fill="none" stroke="#a78bfa" stroke-width="6" stroke-opacity="0.55"/>
+<rect x="392" y="490" width="16" height="68" rx="8" fill="url(#gMetal)" />
+<ellipse cx="400" cy="572" rx="92" ry="15" fill="url(#gMetal)" stroke="#2a3352"/>
+<circle cx="400" cy="432" r="8" fill="#a78bfa" />
+</svg>

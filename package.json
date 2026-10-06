@@ -1,0 +1,22 @@
+{
+  "name": "techzone",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TechZone — a futuristic premium technology marketplace for gamers, creators and innovators.",
+  "scripts": {
+    "install-all": "npm --prefix server install && npm --prefix client install",
+    "seed": "npm --prefix server run seed",
+    "seed:fresh": "npm --prefix server run seed:fresh",
+    "smoke-test": "node scripts/smoke-test.js",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "dev": "concurrently -n API,WEB -c cyan,magenta \"npm --prefix server run dev\" \"npm --prefix client run dev\"",
+    "start": "npm --prefix server start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

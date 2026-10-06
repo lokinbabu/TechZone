@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+<defs>
+<linearGradient id="gBg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d101f"/><stop offset="1" stop-color="#070910"/></linearGradient>
+<linearGradient id="gScreen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#141a30"/><stop offset="1" stop-color="#0a0d1c"/></linearGradient>
+<linearGradient id="gMetal" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#262e4a"/><stop offset="1" stop-color="#141a2e"/></linearGradient>
+<radialGradient id="gz1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.5"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="800" height="800" fill="url(#gBg)"/>
+<ellipse cx="400" cy="430" rx="220" ry="160" fill="url(#gz1)"/>
+<ellipse cx="400" cy="420" rx="122" ry="152" fill="url(#gMetal)" stroke="#22d3ee" stroke-opacity="0.6" stroke-width="2"/>
+<line x1="400" y1="372" x2="400" y2="548" stroke="#0b0e1a" stroke-width="3" />
+<rect x="390" y="314" width="20" height="50" rx="10" fill="#22d3ee" opacity="0.9"/>
+<ellipse cx="400" cy="300" rx="60" ry="26" fill="#22d3ee" opacity="0.14"/>
+</svg>

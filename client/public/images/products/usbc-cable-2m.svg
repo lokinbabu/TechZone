@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+<defs>
+<linearGradient id="gBg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d101f"/><stop offset="1" stop-color="#070910"/></linearGradient>
+<linearGradient id="gScreen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#141a30"/><stop offset="1" stop-color="#0a0d1c"/></linearGradient>
+<linearGradient id="gMetal" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#262e4a"/><stop offset="1" stop-color="#141a2e"/></linearGradient>
+<radialGradient id="gz1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.5"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="800" height="800" fill="url(#gBg)"/>
+<ellipse cx="400" cy="425" rx="245" ry="160" fill="url(#gz1)"/>
+<path d="M 262 425 C 262 322 538 322 538 425 C 538 505 336 505 336 432 C 336 368 472 368 472 430" fill="none" stroke="#2a3352" stroke-width="17" stroke-linecap="round" />
+<path d="M 262 425 C 262 322 538 322 538 425 C 538 505 336 505 336 432 C 336 368 472 368 472 430" fill="none" stroke="#22d3ee" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+<rect x="226" y="408" width="42" height="32" rx="9" fill="url(#gMetal)" stroke="#22d3ee" stroke-opacity="0.6" stroke-width="2"/>
+<rect x="216" y="416" width="12" height="16" rx="4" fill="#22d3ee" opacity="0.85"/>
+<rect x="532" y="412" width="42" height="32" rx="9" fill="url(#gMetal)" stroke="#22d3ee" stroke-opacity="0.6" stroke-width="2"/>
+<rect x="572" y="420" width="12" height="16" rx="4" fill="#22d3ee" opacity="0.85"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+<defs>
+<linearGradient id="gBg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d101f"/><stop offset="1" stop-color="#070910"/></linearGradient>
+<linearGradient id="gScreen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#141a30"/><stop offset="1" stop-color="#0a0d1c"/></linearGradient>
+<linearGradient id="gMetal" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#262e4a"/><stop offset="1" stop-color="#141a2e"/></linearGradient>
+<radialGradient id="gz1"><stop offset="0" stop-color="#a78bfa" stop-opacity="0.5"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="800" height="800" fill="url(#gBg)"/>
+<ellipse cx="400" cy="420" rx="265" ry="170" fill="url(#gz1)"/>
+<ellipse cx="400" cy="420" rx="188" ry="108" fill="url(#gMetal)" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="2"/>
+<circle cx="262" cy="452" r="58" fill="url(#gMetal)" />
+<circle cx="538" cy="452" r="58" fill="url(#gMetal)" />
+<circle cx="336" cy="392" r="26" fill="#10152a" stroke="#a78bfa" stroke-opacity="0.6" stroke-width="2"/>
+<circle cx="336" cy="392" r="10" fill="#a78bfa" opacity="0.55"/>
+<circle cx="464" cy="452" r="26" fill="#10152a" stroke="#a78bfa" stroke-opacity="0.6" stroke-width="2"/>
+<circle cx="464" cy="452" r="10" fill="#a78bfa" opacity="0.55"/>
+<rect x="344" y="448" width="56" height="15" rx="4" fill="#a78bfa" opacity="0.5"/>
+<rect x="364.5" y="427.5" width="15" height="56" rx="4" fill="#a78bfa" opacity="0.5"/>
+<circle cx="492" cy="388" r="9" fill="#a78bfa" opacity="0.9"/>
+<circle cx="492" cy="356" r="9" fill="#a78bfa" opacity="0.9"/>
+<circle cx="476" cy="372" r="9" fill="#a78bfa" opacity="0.9"/>
+<circle cx="508" cy="372" r="9" fill="#a78bfa" opacity="0.9"/>
+</svg>
