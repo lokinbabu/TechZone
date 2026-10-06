@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_URL || (import.meta.env.PROD ? 'https://techzone-1bgq.onrender.com' : '');
+const API_URL = import.meta.env.PROD ? 'https://techzone-1bgq.onrender.com' : import.meta.env.VITE_API_URL || '';
 const BASE = `${API_URL}/api`;
 
 const TOKEN_KEY = 'tz_token';
